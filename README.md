@@ -1,6 +1,6 @@
 # QueryBuster
 
-A light version of Active Record
+A lightweight ORM
 
 ## Functionality
 

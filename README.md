@@ -1,8 +1,14 @@
 # QueryBuster
 
-A lightweight ORM
+A lightweight ORM used for database management
+
+## Set up
+
+To use the library, simply include the lib folder within your project and `require` the `associatable` file.
 
 ## Functionality
+
+The purpose of this Ruby library is to allow access to a simple and lightweight database management system through the use of the methods provided.  Users have access to the basic CRUD operations as well as some Ruby-related helper methods.
 
 The `AttrAccessorObject` class creates setter and getter methods for each column in the database.  This is similar to the `::finalize!` class method within the `SQLObject` class, except with the `::finalize!` method it is unnecessary to explicitly name the columns.  Instead, all of the table columns are created as setter and getter methods.
 

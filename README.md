@@ -20,7 +20,7 @@ Last but not least, you are able to create `#has_many`, `#belongs_to`, and `#has
 
 ## Demo
 
-To run the demo, navigate to the **`\lib`** folder and run **`ruby comments.rb`**.
+To run the demo, navigate to the **`\demo`** folder and run **`ruby comments.rb`**.
 
 Within the demo, three classes are created, with associations, as shown below.
 

@@ -1,4 +1,4 @@
-require_relative 'associatable'
+require_relative '../lib/associatable'
 
 class Comment < SQLObject
   belongs_to :post
@@ -30,6 +30,8 @@ class Information
   def go!
     done = false
 
+    system('clear')
+
     puts "Welcome to the site that has users and posts and comments!"
 
     until done
@@ -37,6 +39,7 @@ class Information
       if choice == '7'
         done = true
       else
+        system('clear')
         menu_options(choice)
       end
     end
